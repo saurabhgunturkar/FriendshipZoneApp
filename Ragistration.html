@@ -1,0 +1,69 @@
+<!DOCTYPE>
+<html>
+<head>
+
+	<title>registration.html</title>
+	<style>
+		img {
+  			display: block;
+  			margin-left: auto;
+  			margin-right: auto;
+		     }
+	</style>
+
+</head>
+<body>
+	<h1 style="color:darkBlue;text-align:center;background-color:white;
+		   font-family:Timesnewroman"><ins>Friendship Zone Application</ins>
+	</h1>
+	<img src="https://images.pexels.com/photos/1116302/pexels-photo-1116302.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" width="500" Height="300" class="center"> 
+	<br>
+
+	<h1 style="color:red"><ins><i>Add your details to register</i></h1>
+
+	<form name="F1" method="post">
+	
+		<label>Name : </label><input type="text" name="your Name" placeholder="Enter your name" required>
+		<br>
+		<br>
+		<label>Email : </label><input type="email" name="your email" required>
+		<br>
+		<br>
+		<lagel>Age : </label><input type="Number" >
+		<br>
+		<br>
+		<label>Birthday : </label><input type="Date" placeholder="mm/dd/yyyy">
+		<br>
+		<br>
+		<label>Gender :</label>
+		<input type="radio" name="gender" Value="M"><label>M</label>
+		<input type="radio" name="gender" Value="F"><label>F</label>
+		<br>
+		<br>
+		<text Area>About : <input type="text" size="10*10"></text area>
+		<br>
+		<br>
+		<label for="phone">Phone :</label>
+		<input type="tel" id="phone" name="phone" required>
+		<br>
+		<br>
+		<label>Interested in :</label>
+		<input type="checkbox" name="interest" value="Friendship"><label>Friendship</label>
+		<input type="checkbox" name="interest" value="Dating"><label>Dating</label>
+		<br>
+		<br>
+		<br>
+		<label for="">Attachment : </label><input type="file" id="" accept=".png,.jpg,.pdf">
+		<br>
+		<br>		
+	</form>
+
+	<form name="f2" action="userregistration.html">
+		<input type="submit" value="Register" onclick="f2.action">
+	</form>
+	<form action="adminconfirmation.html">
+		<input type="submit"   Value="Register as Admin"  onclick="action">
+	</form>
+	
+</body>
+</html>
